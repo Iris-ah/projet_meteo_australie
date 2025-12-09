@@ -9,4 +9,3 @@ python rf_search.py
 import os
 os.makedirs("models", exist_ok=True)
 joblib.dump(best_rf, "models/random_forest_optimized.joblib")
-
